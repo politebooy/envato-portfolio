@@ -1,0 +1,64 @@
+
+.addBg{
+    background-image: url('../../../public//images//bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.container{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.74);
+    color: #fff;
+}
+.heroImg div{
+    border-radius: 50%;
+    border: 5px solid #7280ff;
+}
+.heading {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    margin-bottom: 2px;
+    color: #fff;
+}
+.container h2{
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.container ul{
+    margin: 0;
+    padding: 0;
+}
+.container ul a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 42px;
+    text-align: center;
+    border-radius: 50%;
+    transition: all 0.3s ease-in;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    float: left;
+    margin: 0 5px;
+}
+.container ul a:hover,
+.container ul a:focus, 
+.container ul a:active {
+    text-decoration: none;
+    outline: none;
+    background-color: #7280ff;
+}
+.btns button{
+    background-color: #7280ff;
+    margin: 0 5px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 16px;
+}
+.btns button:hover{
+    background-color: #7280ff;
+}
