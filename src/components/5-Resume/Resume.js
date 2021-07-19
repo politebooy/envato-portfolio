@@ -1,4 +1,4 @@
-import { Divider, Grid, ListItem, ListItemIcon, ListItemText, Typography } from '@material-ui/core'
+import { Divider, Grid, LinearProgress, ListItem, ListItemIcon, ListItemText, Typography, withStyles } from '@material-ui/core'
 import React from 'react'
 import MyCard from '../MyCard'
 import styles from './resume.module.css'
@@ -17,6 +17,20 @@ const knowledge = [
     "Operating systems (Windows and MacOS)",
 ]
 
+const BorderLinearProgress = withStyles((theme) => ({
+    root: {
+        height: 15,
+        // borderRadius: 5,
+    },
+    colorPrimary: {
+        backgroundColor: theme.palette.grey[theme.palette.type === 'light' ? 200 : 700],
+    },
+    bar: {
+        borderRadius: 5,
+        backgroundColor: '#1a90ff',
+    },
+}))(LinearProgress);
+
 export default function Resume() {
 
     const percentage = 66;
@@ -24,6 +38,7 @@ export default function Resume() {
     return (
         <div className={styles.container}>
             <Typography variant="h3" align="center">MY RESUME</Typography>
+            <br/>
             <Grid container>
                 {/* <Grid item md="6">
                     <MyCard className={styles.itemContainer}>
@@ -76,31 +91,37 @@ export default function Resume() {
 
                 <Grid item md="6">
                     <MyCard>
-                        <Typography variant="h5">Exparience</Typography>
+                        <Typography variant="h5">Coding Skills</Typography>
                         <Divider />
                         <Grid className={styles.lineProgress}>
-                            <Line percent="10" strokeWidth="4" trailWidth="4" strokeColor="#007bff" trailColor="#d9dde0" strokeLinecap="square" />
-                        </Grid>
-
-                        <Grid className={styles.lineProgress}>
-                            <Line
-                                percent="10"
-                                strokeWidth="4"
-                                trailWidth="4"
-                                strokeColor="#007bff"
-                                trailColor="#d9dde0"
-                                strokeLinecap="square"
+                            <Typography variant="body1">HTML</Typography>
+                            <BorderLinearProgress
+                                value={80}
+                                variant="determinate"
                             />
                         </Grid>
 
                         <Grid className={styles.lineProgress}>
-                            <Line
-                                percent="10"
-                                strokeWidth="4"
-                                trailWidth="4"
-                                strokeColor="#007bff"
-                                trailColor="#d9dde0"
-                                strokeLinecap="square"
+                            <Typography variant="body1">JAVASCRIPT</Typography>
+                            <BorderLinearProgress
+                                value={80}
+                                variant="determinate"
+                            />
+                        </Grid>
+
+                        <Grid className={styles.lineProgress}>
+                            <Typography variant="body1">PHP</Typography>
+                            <BorderLinearProgress
+                                value={80}
+                                variant="determinate"
+                            />
+                        </Grid>
+
+                        <Grid className={styles.lineProgress}>
+                            <Typography variant="body1">JAVA</Typography>
+                            <BorderLinearProgress
+                                value={80}
+                                variant="determinate"
                             />
                         </Grid>
                     </MyCard>
@@ -108,39 +129,37 @@ export default function Resume() {
 
                 <Grid item md="6">
                     <MyCard>
-                        <Typography variant="h5">Exparience</Typography>
+                        <Typography variant="h5">Language Skills</Typography>
                         <Divider />
                         <Grid className={styles.lineProgress}>
-                            <Line
-                                percent="10"
-                                strokeWidth="4"
-                                trailWidth="4"
-                                strokeColor="#007bff"
-                                trailColor="#d9dde0"
-                                strokeLinecap="square"
-                            />
-                            {/* <Circle percent="10" strokeWidth="4" strokeColor="#D3D3D3" /> */}
-                        </Grid>
-
-                        <Grid className={styles.lineProgress}>
-                            <Line
-                                percent="10"
-                                strokeWidth="4"
-                                trailWidth="4"
-                                strokeColor="#007bff"
-                                trailColor="#d9dde0"
-                                strokeLinecap="square"
+                            <Typography variant="body1">English</Typography>
+                            <BorderLinearProgress
+                                value={80}
+                                variant="determinate"
                             />
                         </Grid>
 
                         <Grid className={styles.lineProgress}>
-                            <Line
-                                percent="10"
-                                strokeWidth="4"
-                                trailWidth="4"
-                                strokeColor="#007bff"
-                                trailColor="#d9dde0"
-                                strokeLinecap="square"
+                            <Typography variant="body1">Hindi</Typography>
+                            <BorderLinearProgress
+                                value={80}
+                                variant="determinate"
+                            />
+                        </Grid>
+
+                        <Grid className={styles.lineProgress}>
+                            <Typography variant="body1">Spanish</Typography>
+                            <BorderLinearProgress
+                                value={80}
+                                variant="determinate"
+                            />
+                        </Grid>
+
+                        <Grid className={styles.lineProgress}>
+                            <Typography variant="body1">Mandarin</Typography>
+                            <BorderLinearProgress
+                                value={80}
+                                variant="determinate"
                             />
                         </Grid>
                     </MyCard>
@@ -150,7 +169,7 @@ export default function Resume() {
                     <MyCard>
                         <Typography variant="h5">Exparience</Typography>
                         <Divider />
-                        <br/>
+                        <br />
                         <Grid container justifyContent="space-around" alignItems="center" className={styles.radialProgress}>
                             <Grid item md="5">
                                 <CircularProgressbar value={percentage} text={`${percentage}%`} />;
@@ -202,7 +221,7 @@ export default function Resume() {
                                 <ListItemText primary={list} />
                             </ListItem>
                         ))}
-                        <br/>
+                        <br />
                     </MyCard>
                 </Grid>
             </Grid>

@@ -1,0 +1,10 @@
+.container{
+    padding: 40px 20px;
+}
+.container button{
+    background-color: rgb(0, 153, 255) !important;
+}
+.priceBtn{
+    font-size: 24px !important;
+    font-weight: 600 !important;
+}

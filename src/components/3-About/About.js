@@ -10,7 +10,7 @@ export default function About() {
             <Typography variant="h3" align="center">ABOUT ME</Typography>
             <br />
             <br />
-            <Grid container alignItems="center">
+            <Grid container alignItems="flex-end">
                 <Grid item md="4">
                     <MyCard>
                         <Image src="/images/about2.jpg" alt="Vercel Logo" width={400} height={400} />
@@ -18,10 +18,14 @@ export default function About() {
                 </Grid>
                 <Grid item md="8">
                     <MyCard>
+                        <br/>
                         <Typography variant="body1">Randon Text Received shutters expenses ye he pleasant. Drift as blind above at up. No up simple county stairs do should praise as. Drawings sir gay together landlord had law smallest. Formerly welcomed attended declared met say unlocked. Jennings outlived no dwelling denoting in peculiar as he believed.</Typography>
                         <br />
                         <Typography variant="body1">Left till here away at to whom past. Feelings laughing at no wondered repeated provided finished. It acceptance thoroughly my advantages everything as.</Typography>
+                        <hr/>
                         <Button>Download cv</Button>
+                        <br/>
+                        <br/>
                     </MyCard>
                 </Grid>
             </Grid>

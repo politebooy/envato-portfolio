@@ -1,11 +1,14 @@
 import Head from 'next/head'
 import Sidebar from '../components/1-Sidebar/Sidebar'
+import Blog from '../components/10-Blog/Blog'
 import Hero from '../components/2-Hero/Hero'
 import About from '../components/3-About/About'
 import Services from '../components/4-Services/Services'
 import Resume from '../components/5-Resume/Resume'
 import Client from '../components/6-Clients/Client'
 import Portfolio from '../components/7-Portfolio/Portfolio'
+import Testimonial from '../components/8-Testimonial/Testimonial'
+import Pricing from '../components/9-Pricing/Pricing'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -25,6 +28,9 @@ export default function Home() {
           <Resume/>
           <Client/>
           <Portfolio/>
+          <Testimonial/>
+          <Pricing/>
+          <Blog/>
         </Sidebar>
       </main>
 
