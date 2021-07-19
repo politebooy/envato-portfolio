@@ -42,8 +42,8 @@ export default function PermanentDrawerLeft({ children }) {
             <div className={styles.sidebarContainer}>
                 <div className={styles.sidebar}>
                 <Grid container justifyContent="center" alignItems="center" className={styles.profilePic}>
-                    <Image src="/images/about3.jpg" alt="Vercel Logo" width={110} height={110} />
-                    <h2>Kristen Stewart</h2>
+                    <Image src="/images/png.png" alt="Vercel Logo" width={110} height={110} />
+                    <h2>Mojahid Islam</h2>
                 </Grid>
                 <Divider />
                 <List className={styles.list}>

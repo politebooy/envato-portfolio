@@ -18,7 +18,7 @@ export default function Hero() {
                 <div className={styles.heroImg}>
                 <Image src="/images/png.png" alt="Vercel Logo" width={140} height={140} />
                 </div>
-                <h1 className={styles.heading}>Kristen Stewart</h1>
+                <h1 className={styles.heading}>Mojahid Islam</h1>
                 <h2>
                     I'm a {''}
                     <Typical
