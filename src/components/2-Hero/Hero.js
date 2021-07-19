@@ -16,13 +16,13 @@ export default function Hero() {
                 className={styles.container}
             >
                 <div className={styles.heroImg}>
-                <Image src="/images/png.png" alt="Vercel Logo" width={140} height={140} />
+                    <Image src="/images/png.png" alt="Vercel Logo" width={140} height={140} />
                 </div>
                 <h1 className={styles.heading}>Mojahid Islam</h1>
                 <h2>
                     I'm a {''}
                     <Typical
-                        steps={['Web Developer.', 1000, 'UI/UX Designers.', 1000, 'Freelancer.', 1000]}
+                        steps={['Freelancer', 1000, 'writer', 1000, 'graphic designer.', 1000, ' IT Advisor', 1000,]}
                         loop={Infinity}
                         wrapper="b"
                     />
