@@ -28,7 +28,7 @@
     transform: rotate(-58deg);
     top: -135%;
     right: -80%;
-    background: #7280ff;
+    background: #ffa3a1;
     z-index: -1;
 }
 .profilePic::after {
@@ -52,7 +52,7 @@
 }
 .profilePic div{
     border-radius: 50%;
-    border: 5px solid #7280ff;
+    border: 5px solid #ffa3a1;
 }
 .list button{
     padding-left: 35px !important;

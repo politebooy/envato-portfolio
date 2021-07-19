@@ -37,7 +37,7 @@ export default function Resume() {
 
     return (
         <div className={styles.container}>
-            <Typography variant="h3" align="center">MY RESUME</Typography>
+            <h1 className="secTitle">MY RESUME</h1>
             <br/>
             <Grid container>
                 {/* <Grid item md="6">

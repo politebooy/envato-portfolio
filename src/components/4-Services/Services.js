@@ -8,7 +8,8 @@ export default function Services() {
     return (
         <div className={styles.container}>
             <br />
-            <Typography variant="h3" align="center">MY SERVICES</Typography>
+            <Typography variant="h3" align="center"></Typography>
+            <h1 className="secTitle">MY SERVICES</h1>
             <br />
             <Grid container>
                 <Grid item md="4">

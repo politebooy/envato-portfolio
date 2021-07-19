@@ -33,7 +33,7 @@ const responsive = {
 export default function Testimonial() {
     return (
         <div className={styles.container}>
-            <Typography variant="h3" align="center">TESTIMONIALS</Typography>
+            <h1 className="secTitle">MY TESTIMONIALS</h1>
             <Carousel
                 // swipeable={false}
                 // draggable={false}

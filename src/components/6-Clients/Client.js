@@ -9,7 +9,7 @@ const clients = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 export default function Client() {
     return (
         <div className={styles.container}>
-            <Typography variant="h3" align="center">MY CLIENTS</Typography>
+            <h1 className="secTitle">MY CLIENTS</h1>
             <Grid container>
                 {clients.map(client => (
                     <Grid item md="2">

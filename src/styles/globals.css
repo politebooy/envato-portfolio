@@ -14,3 +14,23 @@ a {
 * {
   box-sizing: border-box;
 }
+.secTitle{
+  text-align: center;
+  font-size: 45px;
+  margin: 5px 0;
+  color: #ffa3a1;
+  position: relative;
+  font-weight: 600;
+}
+
+.secTitle::after,
+.secTitle::before{
+  content: "";
+  width: 30%;
+  height: 6px;
+   background-color: #ffa3a1;
+   color: red;
+   display: inline-block;
+   margin-bottom: 12px;
+   border-radius: 50%;
+}

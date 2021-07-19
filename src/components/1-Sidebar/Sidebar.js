@@ -33,7 +33,7 @@ const useStyles = makeStyles((theme) => ({
         width: drawerWidth,
     }
 }));
-
+// "ffa3a1"
 export default function PermanentDrawerLeft({ children }) {
     const classes = useStyles();
 

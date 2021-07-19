@@ -27,7 +27,7 @@ export default function Portfolio() {
 
     return (
         <div className={styles.container}>
-            <Typography variant="h3" align="center">MY PORTFOLIO</Typography>
+            <h1 className="secTitle">MY PORTFOLIO</h1>
             <br/>
             <Grid container justifyContent="center">
                 <ImageList rowHeight={200} className={styles.imageList} cols={3} gap={10}>

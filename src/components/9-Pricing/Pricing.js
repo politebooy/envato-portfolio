@@ -19,7 +19,7 @@ const knowledge = [
 export default function Pricing() {
     return (
         <div className={styles.container}>
-            <Typography variant="h3" align="center">PRICING PACKAGES</Typography>
+            <h1 className="secTitle">PRICING PACKAGES</h1>
             <br />
             <Grid container>
                 {price.map(pric => (

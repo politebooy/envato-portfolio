@@ -59,7 +59,7 @@ export default function MediaCard() {
 
     return (
         <div className={styles.container}>
-            <Typography variant="h3" align="center">MY BLOGS</Typography>
+            <h1 className="secTitle">MY BLOGS</h1>
             <Carousel
                 // swipeable={false}
                 // draggable={false}
