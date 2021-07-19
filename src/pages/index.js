@@ -4,6 +4,8 @@ import Hero from '../components/2-Hero/Hero'
 import About from '../components/3-About/About'
 import Services from '../components/4-Services/Services'
 import Resume from '../components/5-Resume/Resume'
+import Client from '../components/6-Clients/Client'
+import Portfolio from '../components/7-Portfolio/Portfolio'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -21,6 +23,8 @@ export default function Home() {
           <About/>
           <Services/>
           <Resume/>
+          <Client/>
+          <Portfolio/>
         </Sidebar>
       </main>
 

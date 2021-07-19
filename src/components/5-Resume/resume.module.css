@@ -1,3 +1,28 @@
 .container{
     padding: 40px 10px;
 }
+.itemContainer{
+    border: 5px solid #999;
+
+}
+.item{
+    border-left: 3px solid rgb(61, 204, 252);
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.lineProgress{
+    margin: 15px 0;
+}
+
+.radialProgress div{
+    text-align: center;
+    margin: 0;
+}
+.radialProgress div svg{
+    padding: 0 50px;
+    margin: 0;
+}
+.radialProgress h3{
+    margin-top: -10px;
+}

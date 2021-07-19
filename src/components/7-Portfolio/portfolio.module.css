@@ -1,0 +1,27 @@
+
+.container{
+    padding: 40PX 0;
+}
+.root{
+    width: 100%;
+}
+.imageList{
+    width: 90%;
+    margin-left: 5%;
+}
+.imageList .overlay{
+    background-color: rgba(0, 0, 0, 0.692);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    color: #fff;
+    z-index: 2;
+    transition: .3s !important;
+    display: none;
+}
+.imageList .imgContainer:hover .overlay{
+    transition: .5s;
+    display: block;
+}
