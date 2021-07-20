@@ -14,7 +14,7 @@ export default function About() {
             <Grid container alignItems="flex-end">
                 <Grid item md="4">
                     <MyCard>
-                        <Image src="/images/about2.jpg" alt="Vercel Logo" width={400} height={400} />
+                        <Image src="/images/tempImg.JPG" alt="Vercel Logo" width={400} height={400} />
                     </MyCard>
                 </Grid>
                 <Grid item md="8">
