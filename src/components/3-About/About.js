@@ -6,7 +6,7 @@ import MyCard from '../MyCard'
 
 export default function About() {
     return (
-        <div className={styles.container}>
+        <div id="about" className={styles.container}>
             {/* <Typography variant="h3" align="center"></Typography> */}
             <h1 className="secTitle">ABOUT ME</h1>
             <br />

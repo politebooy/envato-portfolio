@@ -58,7 +58,7 @@ export default function MediaCard() {
     const classes = useStyles();
 
     return (
-        <div className={styles.container}>
+        <div id="blog" className={styles.container}>
             <h1 className="secTitle">MY BLOGS</h1>
             <Carousel
                 // swipeable={false}

@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 export default function Services() {
     return (
-        <div className={styles.container}>
+        <div id="services" className={styles.container}>
             <br />
             <Typography variant="h3" align="center"></Typography>
             <h1 className="secTitle">MY SERVICES</h1>

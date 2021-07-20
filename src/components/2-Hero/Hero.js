@@ -7,7 +7,7 @@ import Typical from 'react-typical'
 
 export default function Hero() {
     return (
-        <div className={styles.addBg}>
+        <div id="hero" className={styles.addBg}>
             <Grid
                 container
                 justifyContent="center"
@@ -16,10 +16,10 @@ export default function Hero() {
                 className={styles.container}
             >
                 <div className={styles.heroImg}>
-                    <Image src="/images/png.png" alt="Vercel Logo" width={140} height={140} />
+                    <Image data-aos="zoom-out" src="/images/png.png" alt="Vercel Logo" width={140} height={140} />
                 </div>
-                <h1 className={styles.heading}>Mojahid Islam</h1>
-                <h2>
+                <h1 data-aos="fade-up" data-aos-delay="500" className={styles.heading}>Mojahid Islam</h1>
+                <h2 data-aos="fade-up" data-aos-delay="600">
                     I'm a {''}
                     <Typical
                         steps={['Freelancer', 1000, 'writer', 1000, 'graphic designer.', 1000, ' IT Advisor', 1000,]}
@@ -27,14 +27,14 @@ export default function Hero() {
                         wrapper="b"
                     />
                 </h2>
-                <ul>
+                <ul data-aos="fade-up" data-aos-delay="700">
                     <a href="#"><FaFacebookF /></a>
                     <a href="#"><FaTwitter /></a>
                     <a href="#"><FaLinkedinIn /></a>
                     <a href="#"><FaInstagram /></a>
                     <a href="#"><FaPinterestP /></a>
                 </ul>
-                <Grid className={styles.btns}>
+                <Grid data-aos="fade-up" data-aos-delay="800" className={styles.btns}>
                     <Button>Contact me</Button>
                     <Button>intro</Button>
                 </Grid>

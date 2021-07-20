@@ -26,7 +26,7 @@ export default function Portfolio() {
     const classes = useStyles();
 
     return (
-        <div className={styles.container}>
+        <div id="portfolio" className={styles.container}>
             <h1 className="secTitle">MY PORTFOLIO</h1>
             <br/>
             <Grid container justifyContent="center">

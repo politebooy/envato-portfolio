@@ -36,7 +36,7 @@ export default function Resume() {
     const percentage = 66;
 
     return (
-        <div className={styles.container}>
+        <div id="resume" className={styles.container}>
             <h1 className="secTitle">MY RESUME</h1>
             <br/>
             <Grid container>
