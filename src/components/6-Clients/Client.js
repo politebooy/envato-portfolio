@@ -24,7 +24,7 @@ export default function Client() {
         <div className={styles.container}>
             <h1 className="secTitle">MY PROJECT</h1>
             <br />
-            <Typography variant="h4" align="center">SnigdhoChowa Group Of Company Ltd.</Typography>
+            <Typography variant="h4" align="center"><a href="snigdhochowa.com">SnigdhoChowa Group Of Company Ltd.</a></Typography>
             <br />
             <Grid container>
                 {/* {clients.map(client => (
