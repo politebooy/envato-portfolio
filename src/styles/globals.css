@@ -27,11 +27,11 @@ a {
 .secTitle::after,
 .secTitle::before{
   content: "";
-  width: 30%;
+  width: 20%;
   height: 6px;
    background-color: #ffa3a1;
    color: red;
    display: inline-block;
    margin-bottom: 12px;
-   border-radius: 50%;
+   border-radius: 5px;
 }
