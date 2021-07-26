@@ -14,7 +14,7 @@ export default function About() {
             <Grid container alignItems="flex-end">
                 <Grid item md="4">
                     <MyCard>
-                        <Image src="/images/tempImg.JPG" alt="Vercel Logo" width={400} height={400} />
+                        <Image src="/images/about.jpg" alt="Vercel Logo" width={400} height={400} />
                     </MyCard>
                 </Grid>
                 <Grid item md="8">
@@ -37,36 +37,34 @@ export default function About() {
                         <Grid item md="6">
                             <div className={styles.info}>
                                 <div className={styles.prop}>
-                                    <p>Birthday:</p>
                                     <p>City:</p>
-                                    <p>Study:</p>
                                     <p>Website:</p>
                                     <p>Phone:</p>
+                                    <p>Degree:</p>
+                                    <p>Notelife:</p>
                                 </div>
                                 <div>
-                                    <p>01.07.1990</p>
-                                    <p>New York, USA</p>
-                                    <p>Chicago University</p>
-                                    <p>www.mywebsite.com</p>
-                                    <p>+77 022 177 05 05</p>
+                                    <p>Dhaka Bangladesh</p>
+                                    <p>www.mojahidislam.com</p>
+                                    <p>01711223405</p>
+                                    <p>Master</p>
+                                    <p>mojahid_scm</p>
                                 </div>
                             </div>
                         </Grid>
                         <Grid item md="6">
                             <div className={styles.info}>
                                 <div className={styles.prop}>
-                                    <p>Age:</p>
+                                    <p>Study:</p>
                                     <p>Interests:</p>
                                     <p>Degree:</p>
                                     <p>Mail:</p>
-                                    <p>Twitter:</p>
                                 </div>
                                 <div>
-                                    <p>28</p>
-                                    <p>Soccer, UFC</p>
+                                    <p>Dhaka University</p>
+                                    <p>Businessman </p>
                                     <p>Master</p>
-                                    <p>mymail@gmail.com</p>
-                                    <p>@myusername</p>
+                                    <p>contact@mojahidislam.com</p>
                                 </div>
                             </div>
                         </Grid>

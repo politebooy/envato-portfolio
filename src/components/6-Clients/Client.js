@@ -14,9 +14,9 @@ const projects = [
     { title: 'Khaticlub', src: '/images/Khaticlub.png', link: 'https://khaticlub.com/', desc: 'Khaticlub is an e-commerce platform which will be capable of providing every kind of goods and products.' },
     { title: 'Ridelife', src: '/images/Ridelife-logo.jpg', link: 'http://ridelife.me/', desc: 'Its services include ride-hailing, food delivery, package delivery, couriers, freight transportation.' },
 
-    { title: 'Pdpdrive', src: '/images/Pdpdrive1.jpg', link: 'http://pdpdrive.com/', desc: 'Pdp Drive is a file storage and synchronization service developed by  Snigdhochowa' },
     { title: 'EEPB', src: '/images/EEPB-1.png', link: 'http://eepb.com.bd/', desc: 'EEPB  is a E-commerce Association.we will Advic insight, profiles and guides for established and aspiring entrepreneurs worldwide' },
-    { title: 'Newsstore', src: '/images/nnnnnnn.png', link: 'https://newsstore.info/', desc: 'Its services include ride-hailing, food delivery, package delivery, couriers, freight transportation.' },
+    { title: 'Pdpdrive', src: '/images/Pdpdrive1.jpg', link: 'http://pdpdrive.com/', desc: 'Pdp Drive is a file storage and synchronization service developed by  Snigdhochowa' },
+    { title: 'Newsstore', src: '/images/nnnnnnn.png', link: 'https://newsstore.info/', desc: 'International news platform' },
 ]
 
 export default function Client() {
